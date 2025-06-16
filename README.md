@@ -1,9 +1,7 @@
-# JUEGO_PrimerSemestre
 
-# Lógica de Programación: 
+# Lógica de Programación: Juego Primer Semestre
 
-Piedra, Papel o Tijera - Juego 
-Este proyecto es un juego interactivo por consola, desarrollado en lenguaje de programación Python desarrollado en el editor de código Visual Studio Code, permite al jugador enfrentarse a la computadora una partida de piedra, papel o tijera. El diseño incluye una bienvenida, un menú y toma de decisiones basadas en entradas válidas seleccionadas por el jugador, siguiendo un flujo previamente diseñado.  
+Juego - Piedra, Papel o Tijera: Este proyecto es un juego interactivo por consola, desarrollado en lenguaje de programación Python desarrollado en el editor de código Visual Studio Code, permite al jugador enfrentarse a la computadora una partida de piedra, papel o tijera. El diseño incluye una bienvenida, un menú y toma de decisiones basadas en entradas válidas seleccionadas por el jugador, siguiendo un flujo previamente diseñado.  
 
 # Objetivo:
 Implementar un juego simple con el cual se practique los conocimientos previamente adquiridos como estructuras condicionales, ingreso de datos, métodos de cadena, operadores lógicos y el uso de estructuras de control como bucles en el lenguaje de programación Python.
