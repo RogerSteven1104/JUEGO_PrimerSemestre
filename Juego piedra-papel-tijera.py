@@ -1,7 +1,7 @@
 import random                                          #Necesario para que la computadora elija las opciones / Consultar Ing.
 
 nombre = (input("Ingresa tu nombre: ")).capitalize()
-print("\nHola ," + nombre + "! Bienvenido al juego de piedra, papel o tijera.")
+print("\nHola, " + nombre + "! Bienvenido al juego de piedra, papel o tijera.")
 
 while True:                                            # Mostrar Menú / Empieza bucle principal
     print("\nMenú:")
