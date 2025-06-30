@@ -77,36 +77,36 @@ se describe el flujo de decisiones que toma el usuario y cómo interactua con el
 ```INICIO
 │
 ├─► Mostrar MENÚ PRINCIPAL
-│     ├─ 1. Jugar```
-```│     ├─ 2. Ver estadísticas```
-```│     ├─ 3. Reglas del juego```
-```│     └─ 4. Salir```
-```│```
-```├─► Si elige JUGAR:```
-```│     ├─► Mostrar submenú:```
-```│     │     ├─ 1. Contra la PC```
-```│     │     └─ 2. Multijugador```
-```│     │```
-```│     ├─► Pedir nombres de los jugadores```
-```│     ├─► Preguntar: ¿Cuántas partidas desea jugar?```
-```│     └─► Bucle de N partidas:```
-```│           ├─ Jugador 1 elige opción (PIEDRA, PAPEL o TIJERA)```
-```│           ├─ Jugador 2 (o PC) elige opción```
-```│           ├─ Determinar resultado```
-```│           └─ Guardar resultado en historial```
-```│
-```├─► Si elige VER ESTADÍSTICAS:```
-```│     ├─► ¿Hay historial?```
-```│     │     ├─ Sí → Mostrar resumen de partidas y estadísticas```
-```│     │     └─ No → Mostrar mensaje de “No hay estadísticas recientes”```
-```│```
-```├─► Si elige REGLAS DEL JUEGO:```
-```│     └─► Mostrar explicación de las reglas del juego```
-```│```
-```├─► Si elige SALIR:```
-```│     └─► Finalizar el programa```
-```│```
-```└──► FIN```
+│     ├─ 1. Jugar
+│     ├─ 2. Ver estadísticas
+│     ├─ 3. Reglas del juego
+│     └─ 4. Salir
+│
+├─► Si elige JUGAR:
+│     ├─► Mostrar submenú:
+│     │     ├─ 1. Contra la PC
+│     │     └─ 2. Multijugador
+│     │
+│     ├─► Pedir nombres de los jugadores
+│     ├─► Preguntar: ¿Cuántas partidas desea jugar?
+│     └─► Bucle de N partidas:
+│           ├─ Jugador 1 elige opción (PIEDRA, PAPEL o TIJERA)
+│           ├─ Jugador 2 (o PC) elige opción
+│           ├─ Determinar resultado
+│           └─ Guardar resultado en historial
+│
+├─► Si elige VER ESTADÍSTICAS:
+│     ├─► ¿Hay historial?
+│     │     ├─ Sí → Mostrar resumen de partidas y estadísticas
+│     │     └─ No → Mostrar mensaje de “No hay estadísticas recientes”
+│
+├─► Si elige REGLAS DEL JUEGO:
+│     └─► Mostrar explicación de las reglas del juego
+│
+├─► Si elige SALIR:
+│     └─► Finalizar el programa
+│
+└──► FIN``` 
 
 # 🧠 Concluciones: 
 
