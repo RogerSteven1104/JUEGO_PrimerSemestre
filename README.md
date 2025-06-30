@@ -74,9 +74,9 @@ PC / Jugador 2: ganó 1, perdió 1, empató 1
 
 El programa sigue una lógica clara y previamente estructurada, dirigida por un menú principal. A continuación, se describe el flujo de decisiones que toma el usuario y cómo interactua con el sistema:
 
- INICIO
-• │
-• ├─► Mostrar MENÚ PRINCIPAL
+ ```INICIO```
+```│```
+```├─► Mostrar MENÚ PRINCIPAL```
 • │     ├─ 1. Jugar
 • │     ├─ 2. Ver estadísticas
 • │     ├─ 3. Reglas del juego
