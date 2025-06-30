@@ -18,66 +18,66 @@ Implementar un juego popular con el cual se practique los conocimientos previame
 
 # 📂 Cómo jugar:
 
-• Ejecuta el archivo Python en tu consola:
+ • Ejecuta el archivo Python en tu consola:
 
-• Elige una opción del menú principal:
+ • Elige una opción del menú principal:
 
 1. Jugar
 
-• Jugar contra la computadora
+ • Jugar contra la computadora
 
-- Se solicita el nombre del jugador.
+ - Se solicita el nombre del jugador.
 
-- Se pregunta si desea jugar un número específico de rondas.
+ - Se pregunta si desea jugar un número específico de rondas.
 
-- El sistema ejecuta las partidas contra la computadora.
+ - El sistema ejecuta las partidas contra la computadora.
 
-- Al finalizar, se almacenan los resultados
+ - Al finalizar, se almacenan los resultados
 
-• Multijugador
+ • Multijugador
 
-- Ambos jugadores ingresan sus nombres.
+ - Ambos jugadores ingresan sus nombres.
 
-- Las elecciones de cada uno no se muestran durante el ingreso para mantener la confidencialidad.
+ - Las elecciones de cada uno no se muestran durante el ingreso para mantener la confidencialidad.
 
-- El sistema anuncia el ganador de cada partida y guarda los resultados.
+ - El sistema anuncia el ganador de cada partida y guarda los resultados.
 
 2. Ver estadísticas de la última partida
 
-• Se muestran el resumen y conteo de rondas ganadas, perdidas o empatadas.
+ • Se muestran el resumen y conteo de rondas ganadas, perdidas o empatadas.
 
-• Si no se han jugado partidas, el sistema indicará que no hay estadísticas recientes.
+ • Si no se han jugado partidas, el sistema indicará que no hay estadísticas recientes.
 
-• Las estadísticas se reinician al comenzar un nuevo conjunto de partidas.
+ • Las estadísticas se reinician al comenzar un nuevo conjunto de partidas.
 
-• Estadísticas: (Última partida)
+ • Estadísticas: (Última partida)
 
 Jugador 1: ganó 1, perdió 1, empató 1
-
 PC / Jugador 2: ganó 1, perdió 1, empató 1
 
 3. Reglas del juego
 
-• Piedra gana a Tijera, la piedra aplasta la tijera"
+ • Piedra gana a Tijera, la piedra aplasta la tijera"
 
-• Papel gana a Piedra, el papel envuelve la piedra"
+ • Papel gana a Piedra, el papel envuelve la piedra"
 
-• Tijera gana a Papel, la tijera corta el papel"
+ • Tijera gana a Papel, la tijera corta el papel"
 
-• Empate, si ambos jugadores eligen la misma opción, se repite la ronda hasta que haya un ganador."
+ • Empate, si ambos jugadores eligen la misma opción, se repite la ronda hasta que haya un ganador."
 
 4. Salir
 
-• Termina el juego y presenta el mensaje: ¡Hasta la próxima!"
+ • Termina el juego y presenta el mensaje: ¡Hasta la próxima!"
 
 # 📜 Lógica del juego (resumen del flujograma):
 
-El programa sigue una lógica clara y previamente estructurada, dirigida por un menú principal. A continuación, se describe el flujo de decisiones que toma el usuario y cómo interactua con el sistema:
+El programa sigue una lógica clara y previamente estructurada, dirigida por un menú principal. A continuación, 
+se describe el flujo de decisiones que toma el usuario y cómo interactua con el sistema:
 
-```INICIO```
-```│```
-```├─► Mostrar MENÚ PRINCIPAL```
-```│     ├─ 1. Jugar```
+```INICIO
+│
+├─► Mostrar MENÚ PRINCIPAL
+│     ├─ 1. Jugar```
 ```│     ├─ 2. Ver estadísticas```
 ```│     ├─ 3. Reglas del juego```
 ```│     └─ 4. Salir```
