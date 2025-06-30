@@ -74,7 +74,8 @@ PC / Jugador 2: ganó 1, perdió 1, empató 1
 El programa sigue una lógica clara y previamente estructurada, dirigida por un menú principal. A continuación, 
 se describe el flujo de decisiones que toma el usuario y cómo interactua con el sistema:
 
-```INICIO
+```
+INICIO
 │
 ├─► Mostrar MENÚ PRINCIPAL
 │     ├─ 1. Jugar
@@ -106,7 +107,8 @@ se describe el flujo de decisiones que toma el usuario y cómo interactua con el
 ├─► Si elige SALIR:
 │     └─► Finalizar el programa
 │
-└──► FIN``` 
+└──► FIN
+``` 
 
 # 🧠 Concluciones: 
 
